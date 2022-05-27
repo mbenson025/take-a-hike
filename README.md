@@ -15,7 +15,7 @@ Group Members: Alberto, Arthur, Mason, Timothy
 <br>
 <br>
 Concept:
-As an avid outdoor person, I wanted to go to a website that gives me high level park information when I select a park that I wanted to checkout.
+As an avid outdoor person, I want a website that gives me high level park information/location/weather for an ideal hiking trip.
 <br>
 <br>
 Roles:
@@ -23,29 +23,46 @@ Roles:
 <br>
 Alberto: Worked on the JavaScript. Focused on the functionality of the Park selection, park display of information (park buttons, carousel, activites), local storage
 <br>
-Mason: Worked on the JavaScript. Focused on the functionality of the maps, weather, park display of information (about and description), local storage.
+Mason: Worked on the JavaScript. Focused on the apis and the functionality of maps, weather, park display of information (about and description), local storage.
 <br>
 Timothy: Worked on the CSS and HTML. Focused on the styling and layout of the website to be engaging and user intuitive.
 <br>
-Arthur: Worked on the ReadMe, PowerPoint, and Software Testing. Focused on fleshing out the bugs and errors of the current main branch.
+Arthur: Worked on the ReadMe, PowerPoint, and Software Testing. Focused on fleshing out the bugs and errors.
 <br>
 <br>
-#Version 2.0 Might Include:
+
+## Version 2.0:
+
 <br>
 <br>
-The addition of photos to the corresponding parks in the park list would be an enhancement. Style updates might be to add a background image and animation to the State drop down list. Google Maps could be expanded to include additional pins.
+  * Search input field with jQuery autofill for park selection
+  * Background image and animation to the State drop down list
+  * Better display for pictures on Carousel with corresponding info
+  * Additional features included with google maps.
+  * media query styling for responsiveness fixes on smaller screens
+
 <br>
 <br>
-#General Functionality:
+
+## Technologies Used:
+
+nps.gov, openweathermap.org, and google maps APIs, jQuery and ajax. Languages used: HTML5, CSS, JavaScript.
+
 <br>
 <br>
-The user is initially presented with a drop down to select a US State. Upon selecting "Submit" the transition presents a list of State specific National Parks
-from which the user would make a selection. The result would present the user with a Google Map, Park specific photo carousel, historical details about the
-selected park and a list of interesting activities available at the park. There is also entry cost details and a National Park Directory link for travel help.
-Additionally, the "Weather Forecast" button becomes available. When the "Weather Forecast" button is selected the user is presented with a 5 days forecast of
-the specific park. The "Weather Forecast" button will close the 5 day forecast window. At the top of the screen there is a "Select State" button which will
-bring the user back to a screen that allows the user to select a different state and collection of parks. To the right of the screen a list of each park
-explored is saved for reference. The "Clear Recent Parks" button will clear this list from the screen.
+## About
+
+<br>
+<br>
+
+- Upon deployment, the application presents the user with a dropdown list of states to choose from.
+  - Each state brings a list of national parks(nps.org api) to choose from for an ideal hiking trip
+  - Choosing a park brings the user to a "landing page" with information associated to the chosen park.
+  - An interactive map(google maps api) showing the location of the park allows the user to find out more about the terrain and area.
+  - There is also a weather dashboard display(openweathermap.org api) that dynamically changes to show a five day weather forecast based on the coordinates of the park.
+  - Park description, pictures, fees and other relevant information is displayed and will change from park to park.
+  - Parks are able to be saved with our "favorite park" button to be used as a quick search from the start page.
+
 <br>
 <br>
 
@@ -96,3 +113,25 @@ List of park activities
 <img src="./assets/img/takeahikess5.jpg" alt="activities" title="List of Activities">
 <br>
 <br>
+
+## Contact:
+
+<br>
+
+Mason Benson - mbenson025@gmail.com
+
+GitHub Profile - https://github.com/mbenson025
+
+<br>
+
+<br>
+
+## License:
+
+<br>
+
+MIT License
+
+Copyright (c) 2022 Mason Benson
+
+Licensed under the [MIT](LICENSE) license.
