@@ -6,16 +6,17 @@
 
 <br>
 <br>
-Deployed Page Link: https://guapguap.github.io/travel-project/
+<a href="https://mbenson025.github.io/take-a-hike/">Deployed App Here</a>
 <br>
-Github Repo: https://github.com/Guapguap/travel-project
+<br>
+<a href="https://github.com/mbenson025/take-a-hike">GitHub Repo</a>
 <br>
 <br>
 Group Members: Alberto, Arthur, Mason, Timothy
 <br>
 <br>
 Concept:
-As an avid outdoor person, I want a website that gives me high level park information/location/weather for an ideal hiking trip.
+As an avid outdoor person, I want a website that gives me high level park information/location/weather information that would allow me to be well-equipped for an ideal hiking trip.
 <br>
 <br>
 Roles:
@@ -35,11 +36,12 @@ Arthur: Worked on the ReadMe, PowerPoint, and Software Testing. Focused on flesh
 
 <br>
 <br>
-  * Search input field with jQuery autofill for park selection
-  * Background image and animation to the State drop down list
-  * Better display for pictures on Carousel with corresponding info
-  * Additional features included with google maps.
-  * media query styling for responsiveness fixes on smaller screens
+
+- Search input field with jQuery autofill for park selection
+- Background image and animation to the State drop down list
+- Better display for pictures on Carousel with corresponding info
+- Additional features included with google maps.
+- media query styling for responsiveness fixes on smaller screens
 
 <br>
 <br>
@@ -50,6 +52,7 @@ nps.gov, openweathermap.org, and google maps APIs, jQuery and ajax. Languages us
 
 <br>
 <br>
+
 ## About
 
 <br>
