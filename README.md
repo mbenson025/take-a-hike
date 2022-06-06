@@ -1,5 +1,9 @@
 # Take a Hike
 
+![GitHub](https://img.shields.io/github/license/mbenson025/take-a-hike)
+![GitHub language count](https://img.shields.io/github/languages/count/mbenson025/take-a-hike)
+![GitHub top language](https://img.shields.io/github/languages/top/mbenson025/take-a-hike)
+
 <br>
 
 # Github Repository and Deployed Application:
